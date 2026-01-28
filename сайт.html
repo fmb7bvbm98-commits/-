@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка Хабез — Быстро и Вкусно</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com"/>
+    <style>
+        @import url('https://fonts.googleapis.com');
+        body { font-family: 'Montserrat', sans-serif; background: #0f172a; color: white; }
+        .gradient-text { background: linear-gradient(90deg, #f59e0b, #ef4444); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-hover:hover { transform: translateY(-10px); transition: 0.3s; }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="p-6 flex justify-between items-center fixed w-full z-50 bg-slate-900/80 backdrop-blur-md">
+        <div class="text-2xl font-black gradient-text tracking-tighter">HABEZ EXPRESS</div>
+        <a href="tel:+79931644427" class="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-full font-bold text-sm transition animate__animated animate__pulse animate__infinite">
+            📞 Позвонить
+        </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20">
+        <h1 class="text-5xl md:text-7xl font-black mb-6 animate__animated animate__fadeInDown">
+            ДОСТАВКА ПО ВСЕМУ <br><span class="gradient-text">ХАБЕЗСКОМУ РАЙОНУ</span>
+        </h1>
+        <p class="text-xl text-gray-400 mb-8 max-w-2xl animate__animated animate__fadeInUp">
+            Работаем 24/7. Привезем ваш заказ быстрее, чем вы успеете проголодаться!
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 animate__animated animate__zoomIn">
+            <div class="bg-slate-800 p-6 rounded-2xl border border-orange-500/30 card-hover">
+                <span class="text-4xl">⚡</span>
+                <h3 class="font-bold mt-2">Очень быстро</h3>
+            </div>
+            <div class="bg-slate-800 p-6 rounded-2xl border border-orange-500/30 card-hover">
+                <span class="text-4xl">🌙</span>
+                <h3 class="font-bold mt-2">В любое время</h3>
+            </div>
+            <div class="bg-slate-800 p-6 rounded-2xl border border-orange-500/30 card-hover">
+                <span class="text-4xl">📍</span>
+                <h3 class="font-bold mt-2">Весь район</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="py-20 bg-slate-800/50 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-10">Важный момент! 🚗</h2>
+            <div class="bg-gradient-to-r from-orange-500 to-red-600 p-1 rounded-3xl">
+                <div class="bg-slate-900 rounded-[22px] p-8">
+                    <p class="text-xl leading-relaxed">
+                        Мы осуществляем доставку на <span class="text-orange-400 font-bold">легковом автомобиле</span>. 
+                        Поэтому принимаем заказы, которые легко помещаются в салон или багажник. 
+                        <br><br>
+                        <span class="bg-white/10 p-2 rounded-lg text-sm uppercase tracking-widest">Никаких крупногабаритных грузов — только то, что влезет в авто!</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="py-24 text-center px-4">
+        <h2 class="text-3xl font-bold mb-6">Готовы сделать заказ?</h2>
+        <p class="text-gray-400 mb-10 text-lg">Просто нажмите на кнопку ниже и мы сразу ответим!</p>
+        <a href="tel:+79931644427" class="inline-block bg-white text-black font-black text-2xl px-10 py-5 rounded-full hover:bg-orange-500 hover:text-white transition-all transform hover:scale-110 shadow-2xl shadow-orange-500/20">
+            8 (993) 164-44-27
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-10 border-t border-slate-800 text-center text-gray-500 text-sm">
+        &copy; 2024 Доставка Хабезский район. Быстро. Четко. В срок.
+    </footer>
+
+</body>
+</html>
